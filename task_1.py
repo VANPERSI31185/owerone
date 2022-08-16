@@ -1,3 +1,3 @@
 ls = [i for i in range(5)]
 print(ls)
-# ol;dkjh
+print(ls*2)
