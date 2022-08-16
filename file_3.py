@@ -1,2 +1,2 @@
-number = "12345"
-print(number)
+ls = [1,2,3,4,5,6]
+print(ls)
