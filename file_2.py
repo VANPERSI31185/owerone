@@ -1,0 +1,2 @@
+word = "СЛОВО"
+print(word)
