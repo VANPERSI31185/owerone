@@ -18,8 +18,8 @@ def play_song():
         mixer.music.load(current_song)
         mixer.music.set_volume(current_volume)
         mixer.music.play()
-        song_title_label.config(fg="green", text="Now playing : " + str (song_title))
-        volume_label.config(fg="green", text="Volume :" + str (current_volume))
+        song_title_label.config(fg="green", text="Now playing : " + str(song_title))
+        volume_label.config(fg="green", text="Volume :" + str(current_volume))
     except Exception as e:
         print(e)
         song_title_label.config(fg="red", text="Error playing track")
